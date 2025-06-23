@@ -1,0 +1,1 @@
+import{f as a,g as n,n as o,c as s,o as r}from"./Cgqazodr.js";const p=a({__name:"_detailing",async setup(_){let e,t;return[e,t]=n(()=>o("https://detailing.8milya.kz",{external:!0})),await e,t(),(i,c)=>(r(),s("div"))}});export{p as default};

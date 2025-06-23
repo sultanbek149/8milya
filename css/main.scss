@@ -1,0 +1,28 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #111111;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.bg-silver {
+  background: linear-gradient(
+    90deg,
+    #a6a6a6 0%,
+    #fffcf3 25%,
+    #fff 50%,
+    #f1f0ec 66.92%,
+    #d0d2d8 75%,
+    #f5f8ff 79.48%,
+    #aaa9a7 100%
+  );
+}
+
+.bg-silver a {
+  color: #111111;
+}
