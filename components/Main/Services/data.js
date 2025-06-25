@@ -8,7 +8,7 @@ const servicesCards = [
   },
   {
     icon: '10s',
-    image: '6s',
+    image: '3s',
     title: 'Развал-схождение / Геометрия',
     text: 'уход в сторону, быстрый износ шин',
     link: '/services/geometry'
@@ -45,7 +45,17 @@ const servicesCards = [
     text: 'услуги автоэлектрика',
     link: '/services/electrical',
   },
-
+  {
+    icon: '12s',
+    image: '3s',
+    title: 'Малярные и кузовные работы',
+    text: 'локальный ремонт, полная покраска, выправление вмятин',
+    link: '/services/autobody-paint',
+  },
+  {
+    icon: '7s', image: '7s', title: 'Шиномонтаж', text: 'полный спектр услуг шиномонтажа, хранение',
+    link: '/services/tire-service'
+  },
   {
     icon: '3s',
     image: '3s',
@@ -54,8 +64,6 @@ const servicesCards = [
   },
 
   { icon: '5s', image: '5s', title: 'Замена тех. жидкостей', text: 'полноценное ТО, замена всех жидкостей' },
-  { icon: '7s', image: '7s', title: 'Шиномонтаж', text: 'полный спектр услуг шиномонтажа, хранение' },
-  { icon: '8s', image: '8s', title: 'Ремонт автоэлектрики', text: 'услуги автоэлектрика' },
   { icon: '9s', image: '9s', title: 'Диагностика', text: 'компьютерная диагностика на професииональном оборудовании' },
 ];
 

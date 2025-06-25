@@ -48,8 +48,8 @@
         </LandingWhyChooseUs>
 
         <LandingSpecialOffer discountText="Скидка 10% на заправку кондиционера до 30 июня"
-            countdownText="Успейте воспользоваться:" ctaText="Записаться на заправку"
-            imageSrc="/conditioner-offer.jpg" imageAlt="Ремонт ходовой части " />
+            countdownText="Успейте воспользоваться:" ctaText="Записаться на заправку" imageSrc="/conditioner-offer.jpg"
+            imageAlt="Ремонт ходовой части " />
 
 
         <LandingLogos />
@@ -67,10 +67,9 @@
 import ConditionerHero from '@/components/Main/Services/ConditionerHero.vue';
 
 
-
 useSeoMeta({
-    title: `Профессиональная замена масла в Алматы - 8 Миля`,
-    description: `Комплексные услуги по замене масла для автомобилей всех марок и моделей`,
+    title: "Профессиональная заправка автокондиционеров в Алматы | Стандарты Porsche/Mercedes/BMW | 8 Миля",
+    description: "Точная заправка фреона с погрешностью 1 грамм на итальянском оборудовании. Устранение запахов, антибактериальная обработка. Только оригинальные хладагенты. Гарантия на работу 2 года. Заправка за 30 минут!"
 });
 
 </script>

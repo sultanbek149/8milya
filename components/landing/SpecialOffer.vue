@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="lg:flex-1">
-                    <img :src="imageSrc" alt="cr" class="h-[500px] w-[700px] object-cover">
+                    <img :src="imageSrc" alt="cr" class="h-[350px] md:h-[500px] w-[700px] object-cover">
                 </div>
             </div>
 

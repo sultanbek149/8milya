@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.10.0",
     "@nuxtjs/icon": "^3.0.0-beta.16",
     "@nuxtjs/robots": "^3.0.0",
     "@vueuse/head": "^2.0.0",
@@ -34,8 +35,5 @@
     "prettier": "^3.2.5",
     "sass": "^1.72.0",
     "sass-loader": "^14.1.1"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.44.0"
   }
 }
