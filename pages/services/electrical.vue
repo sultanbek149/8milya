@@ -7,8 +7,8 @@
 
         <ElectricalHero />
 
-        <div class="max-w-4xl mx-auto p-4">
-            <h2 class="text-xl font-bold text-center mb-4">Прайс-лист услуг автоэлектрика</h2>
+        <!-- <div class="max-w-4xl mx-auto p-4">
+            <p class="text-xl font-bold text-center mb-4">Прайс-лист услуг автоэлектрика</щ>
 
             <table class="w-full border-collapse">
                 <thead>
@@ -19,7 +19,7 @@
                 </thead>
                 <tbody>
                     <!-- Ремонт электросистем -->
-                    <tr class="border-b border-gray-300">
+                    <!-- <tr class="border-b border-gray-300">
                         <td colspan="2" class="py-2 px-2 font-medium">Ремонт электросистем</td>
                     </tr>
                     <tr class="border-b border-gray-200">
@@ -37,10 +37,10 @@
                     <tr class="border-b border-gray-300">
                         <td class="ps-8 py-2 px-2">Ремонт генератора/стартера</td>
                         <td class="py-2 px-2 text-right">от 2 800 т</td>
-                    </tr>
+                    </tr> -->
 
                     <!-- Работа с ключами -->
-                    <tr class="border-b border-gray-300">
+                    <!-- <tr class="border-b border-gray-300">
                         <td colspan="2" class="py-2 px-2 font-medium">Работа с ключами</td>
                     </tr>
                     <tr class="border-b border-gray-200">
@@ -54,10 +54,10 @@
                     <tr class="border-b border-gray-300">
                         <td class="ps-8 py-2 px-2">Экстренное вскрытие авто</td>
                         <td class="py-2 px-2 text-right">3 500 т</td>
-                    </tr>
+                    </tr> -->
 
                     <!-- Мультимедиа и комфорт -->
-                    <tr class="border-b border-gray-300">
+                    <!-- <tr class="border-b border-gray-300">
                         <td colspan="2" class="py-2 px-2 font-medium">Мультимедиа и комфорт</td>
                     </tr>
                     <tr class="border-b border-gray-200">
@@ -75,10 +75,10 @@
                     <tr class="border-b border-gray-300">
                         <td class="ps-8 py-2 px-2">Активация CarPlay/Android Auto</td>
                         <td class="py-2 px-2 text-right">3 900 т</td>
-                    </tr>
+                    </tr> -->
 
                     <!-- Спецпредложения -->
-                    <tr class="border-b border-gray-300">
+                    <!-- <tr class="border-b border-gray-300">
                         <td colspan="2" class="py-2 px-2 font-medium">Спецпредложения</td>
                     </tr>
                     <tr class="border-b border-gray-200">
@@ -93,7 +93,7 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div> --> 
 
 
         <LandingSpecialOffer discountText="Скидка 10% на ремонт электроники до 30 июня"

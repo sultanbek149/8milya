@@ -8,24 +8,29 @@
 
             <!-- Партнеры -->
             <div class="text-center mb-16">
-                <h5 class="text-3xl font-black mb-6 lg:mb-12 uppercase pb-4">Наши партнеры</h5>
+                <h5 class="text-3xl font-black mb-6 lg:mb-12 uppercase pb-4">Наши официальные партнеры и сертификаты</h5>
                 <!-- border-b border-gray-700 -->
                 <div class="flex flex-wrap justify-center items-center gap-12 px-4">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/PPG_Industries_logo.svg" alt="PPG"
-                        class="partner-logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/BASF_logo.svg" alt="BASF"
-                        class="partner-logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/3M_logo.svg" alt="3M"
-                        class="partner-logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Sikkens_logo.svg" alt="Sikkens"
-                        class="partner-logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Spies_Hecker_Logo.svg"
-                        alt="Spies Hecker" class="partner-logo">
+                    <div class="flex flex-col max-w-[360px] text-center">
+                        <div class="h-20 flex items-center">
+                        <img src="/suntek-logo.svg" alt="PPG" class="partner-logo mb-4 mx-auto">
+                        </div>
+                        <p class="text-gray-500">Мы являемся авторизованным центром по установке антигравийной пленки SunTek</p>
+                    </div>
+                    
+                    <div class="flex flex-col max-w-[360px] text-center">
+                        <div class="h-20 flex items-center">
+ <img src="/hexis_logo.svg"
+                            alt="Spies Hecker" class="partner-logo mb-4 mx-auto">
+                       
+                        </div>
+                        <p class="text-gray-500">Мы являемся официальным центром по установке и гарантийному обслуживанию антигравийных пленок Hexis Bodyfence</p>
+                    </div>
                 </div>
             </div>
 
             <!-- Сертификаты -->
-            <div class="text-center">
+            <!-- <div class="text-center">
                 <h5 class="text-3xl font-black mb-6 lg:mb-12 uppercase pb-4">Наши сертификаты</h5>
                 <div class="flex flex-wrap justify-center items-center gap-12 px-4">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/PPG_Industries_logo.svg" alt="PPG"
@@ -39,7 +44,7 @@
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Spies_Hecker_Logo.svg"
                         alt="Spies Hecker" class="partner-logo">
                 </div>
-            </div>
+            </div> -->
 
             <!-- <div class="text-center">
                 <button class="bg-white text-black px-8 py-4 font-bold hover:bg-gray-200 transition duration-300">
@@ -63,17 +68,17 @@
 }
 
 .partner-logo {
-    filter: grayscale(100%) brightness(2);
-    transition: all 0.3s ease;
-    opacity: 0.8;
-    max-height: 80px;
+    /* filter: grayscale(100%) brightness(2); */
+    /* transition: all 0.3s ease; */
+    /* opacity: 0.8; */
+    /* max-height: 80px; */
     max-width: 180px;
-}
+} 
 
-.partner-logo:hover {
+/* .partner-logo:hover {
     opacity: 1;
     filter: grayscale(0%) brightness(1);
-}
+} */
 
 .certificate {
     border: 1px solid #333;

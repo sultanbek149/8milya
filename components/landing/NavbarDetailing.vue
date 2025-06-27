@@ -7,9 +7,9 @@
         <div class="flex items-center justify-between">
           <a href="/" class="text-sm flex text-slate-100 items-center gap-[10px]">
             <img src="/logo.svg" alt="" class="h-[20px]" />
-            <p class="flex gap-[10px]">
+            <div class="flex gap-[10px]">
               <span class="text-slate-300">Автоимперия</span><b> 8 Миля</b>
-            </p>
+            </div>
           </a>
           <ul class="flex flex-col lg:flex-row lg:gap-3">
             <li v-for="item of menuitems">

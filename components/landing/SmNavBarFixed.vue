@@ -13,10 +13,10 @@
             alt=""
             class="h-[20px]"
           />
-          <p class="flex gap-[10px]">
+          <div class="flex gap-[10px]">
             <p class="text-slate-300 text-[13px]">Пн. – Сб.: с 10:00 до 19:00</p>
             <a href="#contacts" class="text-blue-300 text-[13px]">Алматы, ул. Диваева 33</a>
-          </p>
+          </div>
         </a>
       </div>
     </div>
