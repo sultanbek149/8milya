@@ -1,7 +1,6 @@
 <template>
   <div class="relative pb-[100px]">
     <LandingNavbarDetailing />
-
     <LandingContainer>
       <LandingHeroDetailing />
     </LandingContainer>
@@ -9,6 +8,7 @@
 
   <LandingContainer>
     <LandingFeaturesDetailing />
+    <Slider/>
     <LandingLogos />
     <div class="py-20">
       <LandingContactCard />
@@ -18,6 +18,8 @@
 </template>
 
 <script setup lang="ts">
+import Slider from '@/components/Slider';
+
 useSeoMeta({
   title: '8 Миля Детейлинг - Вернём безупречный первозданный вид вашему авто',
   ogTitle: '8 Миля Детейлинг - Вернём безупречный первозданный вид вашему авто ',
