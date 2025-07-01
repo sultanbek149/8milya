@@ -45,7 +45,7 @@
             <!-- Правая сторона -->
             <div class="relative">
                 <div class="overflow-hidden rounded-lg shadow-lg h-full max-h-[700px]">
-                    <img src="/suspension.avif" alt="Автомобиль для покраски"
+                    <img src="/suspension1.JPG" alt="Автомобиль для покраски"
                         class="w-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl" />
                 </div>
             </div>

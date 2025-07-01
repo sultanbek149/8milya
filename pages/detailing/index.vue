@@ -9,6 +9,8 @@
   <LandingContainer>
     <LandingFeaturesDetailing />
     <Slider/>
+    <Officials/>
+
     <LandingLogos />
     <div class="py-20">
       <LandingContactCard />
@@ -18,7 +20,8 @@
 </template>
 
 <script setup lang="ts">
-import Slider from '@/components/Slider';
+import Slider from '@/components/Slider.vue';
+import Officials from '@/components/Officials.vue';
 
 useSeoMeta({
   title: '8 Миля Детейлинг - Вернём безупречный первозданный вид вашему авто',

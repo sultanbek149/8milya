@@ -29,8 +29,8 @@ import AdvantagesMd from '@/components/Main/advantages/advatages-md.vue';
 import Services from '@/components/Main/Services/index.vue';
 import AboutUs from '~/components/Main/AboutUs.vue';
 import OurMis from '@/components/Main/OurMis.vue';
-import Slider from '@/components/Slider';
-
+import Slider from '@/components/Slider.vue';
+    
 useHead(() => ({
   title: '8 Миля - Клиент однажды Клиент навсегда',
   meta: [

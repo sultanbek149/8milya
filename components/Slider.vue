@@ -21,7 +21,10 @@
         class="reviews-slider pb-12"
       >
         <swiper-slide v-for="(review, index) in reviewsData" :key="index" class="review-slide h-auto">
-          <div class="review-content bg-white p-6 rounded-lg shadow-md h-full flex flex-col">
+          <div class="review-content bg-white p-4 rounded-lg shadow-md h-full flex flex-col">
+            <img class="w-full" :src="review.image" alt="alt">
+          </div>
+          <!-- <div class="review-content bg-white p-6 rounded-lg shadow-md h-full flex flex-col">
             <div class="flex items-center mb-4">
               <img 
                 :src="review.image || defaultImage" 
@@ -49,9 +52,10 @@
                 </div>
               </div>
             </div>
-            <p class="review-text text-gray-700 mb-4 flex-grow">"{{ review.text }}"</p>
+            <p class="review-text text-gray-700 mb-4 flex-grow">
+              {{review.text}} </p>
             <p class="text-gray-500 text-sm">{{ formatDate(review.date) }}</p>
-          </div>
+          </div> -->
         </swiper-slide>
 
         <div class="slider-note text-center mt-20"></div>
@@ -91,7 +95,7 @@ const props = defineProps({
   }
 })
 
-const defaultImage = 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&h=128&q=80'
+const defaultImage = 'https://images.unspla *sh.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&h=128&q=80'
 
 const modules = [Navigation, Pagination, Autoplay]
 
@@ -99,47 +103,75 @@ const reviewsData = computed(() => {
   return props.reviews.length > 0 
     ? props.reviews 
     : [
-        {
-          text: "Отдавал на ремонт подвески — сделали на совесть. Мастера с руками!",
-          author: "Алексей",
-          car: "BMW X5",
-          rating: 5,
-          date: new Date('2023-05-15'),
-          image: 'https://randomuser.me/api/portraits/men/32.jpg'
+      {
+          // text: "Дитейлинг на уровне <br /><br /> До посещения их я и подумать не мог что моя машина может так выглядеть, огромное спасибо за качественную а главное быструю работу",
+          // author: "Григорий 222sgn02",
+          // car: "BMW X5",
+          // rating: 5,
+          // date: new Date('2025-05-07'),
+          image: '/reviews/review1.png'
         },
         {
-          text: "Покраска бампера как у дилера. Цена ниже в 2 раза. Рекомендую!",
-          author: "Екатерина",
-          car: "Mercedes C-class",
-          rating: 4.5,
-          date: new Date('2023-06-20'),
-          image: 'https://randomuser.me/api/portraits/women/44.jpg'
+          image: '/reviews/review2.png'
         },
         {
-          text: "Замена масла и диагностика за час. Ни одной ошибки после 10к км.",
-          author: "Дмитрий",
-          car: "Audi Q7",
-          rating: 5,
-          date: new Date('2023-07-10'),
-          image: 'https://randomuser.me/api/portraits/men/75.jpg'
+          image: '/reviews/review3.png'
         },
         {
-          text: "Выправили вмятину без следов. Теперь только сюда.",
-          author: "Сергей",
-          car: "Toyota Camry",
-          rating: 4.5,
-          date: new Date('2023-08-05'),
-          image: 'https://randomuser.me/api/portraits/men/12.jpg'
+          image: '/reviews/review4.png'
         },
         {
-          text: "Спасли коробку передач. Оригинальные запчасти + гарантия.",
-          author: "Ольга",
-          car: "Volkswagen Tiguan",
-          rating: 5,
-          date: new Date('2023-09-12'),
-          image: 'https://randomuser.me/api/portraits/women/63.jpg'
+          image: '/reviews/review5.png'
+        },
+        {
+          image: '/reviews/review6.png'
+        },
+        {
+          image: '/reviews/review7.png'
         }
-      ]
+    ]
+    // : [
+    //     {
+    //       text: "Дитейлинг на уровне <br /><br /> До посещения их я и подумать не мог что моя машина может так выглядеть, огромное спасибо за качественную а главное быструю работу",
+    //       author: "Григорий 222sgn02",
+    //       car: "BMW X5",
+    //       rating: 5,
+    //       date: new Date('2025-05-07'),
+    //       image: 'https://randomuser.me/api/portraits/men/32.jpg'
+    //     },
+    //     {
+    //       text: "Покраска бампера как у дилера. Цена ниже в 2 раза. Рекомендую!",
+    //       author: "Екатерина",
+    //       car: "Mercedes C-class",
+    //       rating: 4.5,
+    //       date: new Date('2023-06-20'),
+    //       image: 'https://randomuser.me/api/portraits/women/44.jpg'
+    //     },
+    //     {
+    //       text: "Замена масла и диагностика за час. Ни одной ошибки после 10к км.",
+    //       author: "Дмитрий",
+    //       car: "Audi Q7",
+    //       rating: 5,
+    //       date: new Date('2023-07-10'),
+    //       image: 'https://randomuser.me/api/portraits/men/75.jpg'
+    //     },
+    //     {
+    //       text: "Выправили вмятину без следов. Теперь только сюда.",
+    //       author: "Сергей",
+    //       car: "Toyota Camry",
+    //       rating: 4.5,
+    //       date: new Date('2023-08-05'),
+    //       image: 'https://randomuser.me/api/portraits/men/12.jpg'
+    //     },
+    //     {
+    //       text: "Спасли коробку передач. Оригинальные запчасти + гарантия.",
+    //       author: "Ольга",
+    //       car: "Volkswagen Tiguan",
+    //       rating: 5,
+    //       date: new Date('2023-09-12'),
+    //       image: 'https://randomuser.me/api/portraits/women/63.jpg'
+    //     }
+    //   ]
 })
 
 const breakpoints = {
