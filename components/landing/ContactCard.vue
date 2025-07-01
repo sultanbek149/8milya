@@ -16,7 +16,7 @@
         </a>
         <a :href="info.wsLink" class="flex items-center mt-2 space-x-2 text-gray-300">
           <Icon class="text-gray-400 w-4 h-4" name="uil:whatsapp" />
-          <span>Написать WhatsApp </span>
+          <span>WhatsApp</span>
         </a>
         <div class="flex items-center mt-2 space-x-2 text-gray-300">
           <Icon class="text-gray-400 w-4 h-4" name="uil:clock" />
