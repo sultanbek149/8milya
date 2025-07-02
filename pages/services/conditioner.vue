@@ -8,7 +8,6 @@
         <ConditionerHero />
 
 
-
         <LandingWhyChooseUs>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-16">
                 <!-- Преимущество 1 -->
@@ -47,9 +46,9 @@
             </div>
         </LandingWhyChooseUs>
 
-        <LandingSpecialOffer discountText="Скидка 10% на заправку кондиционера до 30 июня"
-            countdownText="Успейте воспользоваться:" ctaText="Записаться на заправку" imageSrc="/conditioner-offer.jpg"
-            imageAlt="Ремонт ходовой части " />
+        <LandingSpecialOffer discountText="Скидка 10% на заправку кондиционера до 5 июля"
+            countdownText="Успейте воспользоваться:" ctaText="Записаться на заправку" imageSrc="/cond2.jpg"
+            imageAlt="Ремонт ходовой части" imgCss="!h-[650px] md:!h-[780px]" />
 
 
         <LandingLogos />

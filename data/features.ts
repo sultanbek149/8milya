@@ -96,7 +96,7 @@ export const features = [
     slug: 'detailing-moika',
     description:
       'Комплексная мойка и уход за вашим автомобилем для сохранения его блеска',
-    price: 'от 40 тыс тенге',
+    price: 'от 20 тыс тенге',
     img: {
       src: 'https://static.8milya.kz/detailing/7s.webp',
       width: 480,
@@ -267,7 +267,7 @@ export const fullFeatures = [
     title: 'Реставрация салона',
     slug: 'restavracia-salona',
     description: 'Восстановление красоты и комфорта вашего салона',
-    price: 'от 40 тыс тенге',
+    price: 'от 20 тыс тенге',
     img: {
       src: 'https://static.8milya.kz/detailing/11s.webp',
       width: 480,

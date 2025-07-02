@@ -68,7 +68,7 @@
 
         <LandingSpecialOffer discountText="Скидка 10% на диагностику двигателя до 30 июня"
             countdownText="Успейте воспользоваться:" ctaText="Записаться на экстренную диагностику"
-            imageSrc="/engine-offer.jpg" imageAlt="Ремонт ходовой части " />
+            imageSrc="/engine2.JPG" imageAlt="Ремонт ходовой части " />
 
 
         <LandingLogos />

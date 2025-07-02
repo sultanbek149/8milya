@@ -30,7 +30,7 @@
     ]" />
 
 
-    <ComparisonSlider title="До и после" first-img="/suspension-offer.jpeg" second-img="/engine-repair.jpeg" />
+    <ComparisonSlider title="До и после" first-img="/paint2.jpg" second-img="/paint3.jpg" />
 
 
     <LandingWhyChooseUs>

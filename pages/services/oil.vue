@@ -54,7 +54,7 @@
 
 
     <LandingSpecialOffer discountText="Скидка 10% на замену масла до 30 июня" countdownText="Успейте воспользоваться:"
-      ctaText="Подобрать масло и записаться" imageSrc="/img/oil-special.jpg" imageAlt="Профессиональная замена масла" />
+      ctaText="Подобрать масло и записаться" imageSrc="/img/oil-caroffer.jpg" imageAlt="Профессиональная замена масла" />
 
 
     <LandingLogos />

@@ -61,7 +61,7 @@
     </LandingWhyChooseUs>
 
     <LandingSpecialOffer discountText="Скидка 10% на ремонт ходовой части до 30 июня" countdownText="Успейте воспользоваться:"
-      ctaText="Узнать стоимость ремонта" imageSrc="/suspension-offer.jpeg" imageAlt="Ремонт ходовой части " />
+      ctaText="Узнать стоимость ремонта" imageSrc="/suspension3.JPG" imageAlt="Ремонт ходовой части " />
 
 
     <LandingLogos />

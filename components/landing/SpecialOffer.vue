@@ -46,7 +46,8 @@
                 </div>
 
                 <div class="lg:flex-1">
-                    <img :src="imageSrc" alt="cr" class="h-[350px] md:h-[500px] w-[700px] object-cover">
+                    <img :src="imageSrc" alt="cr"
+                        :class="['h-[350px] md:h-[500px] w-[700px] object-cover', imgCss]">
                 </div>
             </div>
 
@@ -63,6 +64,7 @@ interface Props {
     discountText?: string;
     ctaText?: string;
     imageSrc?: string;
+    imgCss?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -70,14 +72,15 @@ const props = withDefaults(defineProps<Props>(), {
     discountText: 'Скидка 10% на локальную покраску до 30 июня',
     ctaText: 'Записаться на замер геометрии',
     imageSrc: '/img/car-paint.webp',
-    // imageAlt: 'car painting',
+    imgCss: '',
 });
 
 const info = useInfo();
 
 // Дата окончания акции (30 июня текущего года)
 const currentYear = new Date().getFullYear();
-const endDate = new Date(currentYear, 5, 30, 23, 59, 59).getTime();
+const endDate = new Date(currentYear, 6, 5, 23, 59, 59).getTime();
+
 
 // Реактивные данные с немедленным вычислением
 const now = ref(Date.now());
