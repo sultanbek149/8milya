@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="mx-auto mt-20">
+    <div class="mx-auto mt-20 mb-20">
       <p class="text-center text-4xl font-bold mb-5 text-2xl text-white">Также предоставляем комплексное обслуживание всего автомобиля (Также наши услуги)</p>
 
       <LandingFeaturesCardDetailing exclude-slug="plenka"/>

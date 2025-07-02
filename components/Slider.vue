@@ -8,6 +8,7 @@
         :slides-per-view="slidesPerView"
         :space-between="30"
         :loop="true"
+
         :navigation="{
           nextEl: '.swiper-button-next-custom',
           prevEl: '.swiper-button-prev-custom'
@@ -22,7 +23,11 @@
       >
         <swiper-slide v-for="(review, index) in reviewsData" :key="index" class="review-slide h-auto">
           <div class="review-content bg-white p-4 rounded-lg shadow-md h-full flex flex-col">
-            <img class="w-full" :src="review.image" alt="alt">
+            <img 
+              class="w-full" 
+              :src="`/reviews/review${index + 1}.png`" 
+              alt="Review image"
+            >
           </div>
           <!-- <div class="review-content bg-white p-6 rounded-lg shadow-md h-full flex flex-col">
             <div class="flex items-center mb-4">
