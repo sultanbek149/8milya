@@ -20,9 +20,6 @@ export default defineNuxtConfig({
     // "@nuxt/icon"
     'nuxt3-meta-pixel',
   ],
-  plugins: [
-    { src: '~/plugins/yandex-metrika.client.ts', mode: 'client' }
-  ],
   css: ['~/css/main.scss'],
   googleFonts: {
     families: {
