@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     'nuxt3-meta-pixel',
   ],
   plugins: [
-    { src: '~/plugins/yandex-metrika.client.js', mode: 'client' }
+    { src: '~/plugins/yandex-metrika.client.ts', mode: 'client' }
   ],
   css: ['~/css/main.scss'],
   googleFonts: {
