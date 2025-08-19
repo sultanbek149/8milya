@@ -1,4 +1,11 @@
 <template>
+  <noscript>
+      <div>
+        <img src="https://mc.yandex.ru/watch/103800469" 
+             style="position:absolute; left:-9999px;" 
+             alt="" />
+      </div>
+  </noscript>
   <NuxtLoadingIndicator color="#4b34a7" />
   <a-config-provider :theme="th">
     <NuxtLayout>
