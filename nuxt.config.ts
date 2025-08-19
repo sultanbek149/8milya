@@ -17,6 +17,20 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     'nuxt-icon',
     'nuxt-gtag',
+    [
+      '@nuxtjs/yandex-metrika',
+      {
+        id: '103800469',
+        webvisor: true,
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        ecommerce: 'dataLayer',
+        // Дополнительные опции (по желанию)
+        triggerEvent: true,
+        trackHash: true,
+      }
+    ],
     // "@nuxt/icon"
     'nuxt3-meta-pixel',
   ],
