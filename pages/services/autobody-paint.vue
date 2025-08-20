@@ -30,7 +30,7 @@
     ]" />
 
 
-    <ComparisonSlider title="До и после" first-img="/paint2.jpg" second-img="/paint3.jpg" />
+    <ComparisonSlider title="До и после" first-img="/paint2.JPG" second-img="/paint3.JPG" />
 
 
     <LandingWhyChooseUs>
