@@ -1,5 +1,5 @@
 <template>
-  <YandexMetrika />
+  <!-- <YandexMetrika /> -->
   <NuxtLoadingIndicator color="#4b34a7" />
   <a-config-provider :theme="th">
     <NuxtLayout>
@@ -10,7 +10,7 @@
 
 <script setup>
 import { theme } from 'ant-design-vue';
-import YandexMetrika from '@/components/YandexMetrika.vue'
+// import YandexMetrika from '@/components/YandexMetrika.vue'
 
 const th = {
   algorithm: theme.darkAlgorithm,

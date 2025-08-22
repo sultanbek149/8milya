@@ -19,6 +19,19 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     // "@nuxt/icon"
     'nuxt3-meta-pixel',
+     [
+      'yandex-metrika-module-nuxt3',
+      {
+        id: '103850728',
+        webvisor: true,
+        consoleLog: true,
+        clickmap: true,
+        useCDN: false,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        ecommerce:"dataLayer"
+      }
+    ]
   ],
   css: ['~/css/main.scss'],
   googleFonts: {
