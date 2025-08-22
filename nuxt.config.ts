@@ -27,7 +27,7 @@ export default defineNuxtConfig({
         webvisor: true,
         consoleLog: true,
         clickmap: true,
-        useCDN: false,
+        // useCDN: false,
         trackLinks: true,
         accurateTrackBounce: true,
         ecommerce:"dataLayer"
