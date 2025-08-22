@@ -13,6 +13,7 @@
     "@nuxt/image": "^1.10.0",
     "@nuxtjs/icon": "^3.0.0-beta.16",
     "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/yandex-metrika": "^1.4.0",
     "@vueuse/head": "^2.0.0",
     "img-comparison-slider": "^8.0.6",
     "maska": "^2.1.11",
@@ -21,8 +22,7 @@
     "pinia": "^2.1.7",
     "swiper": "^11.2.8",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "yandex-metrika-module-nuxt3": "^1.5.3"
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@ant-design-vue/nuxt": "^1.4.1",

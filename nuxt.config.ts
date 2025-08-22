@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     // "@nuxt/icon"
     'nuxt3-meta-pixel',
      [
-      'yandex-metrika-module-nuxt3',
+      '@nuxtjs/yandex-metrika',
       {
         // id: '103850728',
         id: '103851015',
