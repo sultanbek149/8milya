@@ -22,7 +22,8 @@ export default defineNuxtConfig({
      [
       'yandex-metrika-module-nuxt3',
       {
-        id: '103850728',
+        // id: '103850728',
+        id: '103851015',
         webvisor: true,
         consoleLog: true,
         clickmap: true,
