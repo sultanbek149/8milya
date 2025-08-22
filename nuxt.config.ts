@@ -18,21 +18,21 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-gtag',
     // "@nuxt/icon"
-    'nuxt3-meta-pixel',
-     [
-      '@nuxtjs/yandex-metrika',
-      {
-        id: '103850728',
-        // id: '103851015',
-        webvisor: true,
-        consoleLog: true,
-        clickmap: true,
-        trackLinks: true,
-        accurateTrackBounce: true,
-        ecommerce:"dataLayer"
-        // useCDN: false,
-      }
-    ]
+    // 'nuxt3-meta-pixel',
+    //  [
+    //   '@nuxtjs/yandex-metrika',
+    //   {
+    //     id: '103850728',
+    //     // id: '103851015',
+    //     webvisor: true,
+    //     consoleLog: true,
+    //     clickmap: true,
+    //     trackLinks: true,
+    //     accurateTrackBounce: true,
+    //     ecommerce:"dataLayer"
+    //     // useCDN: false,
+    //   }
+    // ]
   ],
   css: ['~/css/main.scss'],
   googleFonts: {
