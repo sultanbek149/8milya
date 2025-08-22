@@ -22,15 +22,15 @@ export default defineNuxtConfig({
      [
       '@nuxtjs/yandex-metrika',
       {
-        // id: '103850728',
-        id: '103851015',
+        id: '103850728',
+        // id: '103851015',
         webvisor: true,
         consoleLog: true,
         clickmap: true,
-        // useCDN: false,
         trackLinks: true,
         accurateTrackBounce: true,
         ecommerce:"dataLayer"
+        // useCDN: false,
       }
     ]
   ],
