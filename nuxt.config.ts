@@ -66,7 +66,7 @@ export default defineNuxtConfig({
         },
       ],
       script: [
-        { src: '/js/yametrika.js', type: 'text/javascript' },
+        // { src: '/js/yametrika.js', type: 'text/javascript' },
         // { src: '//code.jivo.ru/widget/ybwiGZmeLb', type: 'text/javascript', async: true },
       ],
     },
