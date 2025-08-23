@@ -28,6 +28,11 @@
       </div>
       <nav class="w-full lg:w-auto mt-2 lg:flex lg:mt-0" :class="{ block: open, hidden: !open }">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
+          <li>
+            <a @click="scrollToElement('services')" class="flex cursor-pointer lg:px-3 py-2 text-slate-100 hover:text-slate-200">
+              Услуги
+            </a>
+          </li>
           <li v-for="item of menuitems">
             <a :href="item.path" class="flex lg:px-3 py-2 text-slate-100 hover:text-slate-200">
               {{ item.title }}
@@ -82,6 +87,18 @@ import NavBarFooter from '~/components/landing/NavBarFooter.vue';
 import NavBarFixed from '~/components/landing/NavBarFixed.vue';
 import SmNavBarFixed from '~/components/landing/SmNavBarFixed.vue';
 
+const scrollToElement = (elementId) => {
+  const element = document.getElementById(elementId);
+  if (element) {
+    // Using smooth scroll behavior
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
+}
+
+
 const target = ref(null);
 const targetIsVisible = ref(true);
 
@@ -96,10 +113,10 @@ const orderStore = useOrderStore();
 
 const info = useInfo();
 const menuitems = [
-  {
-    title: 'Услуги',
-    path: '/services',
-  },
+  // {
+  //   title: 'Услуги',
+  //   path: '/services',
+  // },
   {
     title: 'О нас',
     path: '/about',

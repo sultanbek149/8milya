@@ -1,1 +1,0 @@
-import{i as a,l as n,c as o,m as s,o as i}from"./Du8-erLS.js";const m=a({__name:"_detailing",async setup(r){let e,t;return[e,t]=n(()=>s("https://detailing.8milya.kz",{external:!0})),await e,t(),(_,c)=>(i(),o("div"))}});export{m as default};

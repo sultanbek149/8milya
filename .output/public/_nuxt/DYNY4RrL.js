@@ -1,1 +1,0 @@
-import{_ as o,c as s,o as t,k as c}from"./Du8-erLS.js";const n={},_={class:"max-w-screen-xl mx-auto px-5"};function r(e,a){return t(),s("div",_,[c(e.$slots,"default")])}const m=o(n,[["render",r]]);export{m as _};

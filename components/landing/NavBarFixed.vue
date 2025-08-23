@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="fixed top-0 left-0 right-0 hidden md:flex backdrop-blur bg-[#0000001f] py-[10px] z-10"
-  >
+  <header class="fixed top-0 left-0 right-0 hidden md:flex backdrop-blur bg-[#0000001f] py-[10px] z-10">
     <div class="max-w-screen-xl mx-auto px-5 w-full">
       <div class="flex items-center justify-between">
         <a href="/" class="text-sm flex text-slate-100 items-center gap-[10px]">
@@ -11,11 +9,14 @@
           </div>
         </a>
         <ul class="flex flex-col lg:flex-row lg:gap-3">
+          <li>
+            <a @click="scrollToElement('services')"
+              class="flex cursor-pointer lg:px-3 py-2 text-slate-100 hover:text-slate-200">
+              Услуги
+            </a>
+          </li>
           <li v-for="item of menuitems">
-            <a
-              :href="item.path"
-              class="flex lg:px-3 py-2 text-slate-100 hover:text-slate-200"
-            >
+            <a :href="item.path" class="flex lg:px-3 py-2 text-slate-100 hover:text-slate-200">
               {{ item.title }}
             </a>
           </li>
@@ -24,17 +25,11 @@
           <a :href="wsLink" class="">
             <img src="/ws-logo.svg" alt="" width="50px" class="h-[40px]" />
           </a>
-          <a
-            href="#"
-            @click="orderStore.toggleOpen()"
-            class="px-[16px] bg-silver border rounded text-slate-900 py-[8px] text-center font-[Nunito] font-bold"
-          >
+          <a href="#" @click="orderStore.toggleOpen()"
+            class="px-[16px] bg-silver border rounded text-slate-900 py-[8px] text-center font-[Nunito] font-bold">
             Рассчитать стоимость
           </a>
-          <a
-            :href="telLink"
-            class="px-[16px] border rounded text-slate-200 py-[8px] text-center font-[Nunito]"
-          >
+          <a :href="telLink" class="px-[16px] border rounded text-slate-200 py-[8px] text-center font-[Nunito]">
             {{ info.phone }}
           </a>
         </div>
@@ -49,13 +44,20 @@ import { telLink, useInfo, wsLink } from '~/composable/phone';
 import { useOrderStore } from '~/store/oder.store';
 const orderStore = useOrderStore();
 
+const scrollToElement = (elementId: string) => {
+  const element = document.getElementById(elementId);
+  if (element) {
+    // Using smooth scroll behavior
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
+}
+
 const info = useInfo();
 
 const menuitems = [
-  {
-    title: 'Услуги',
-    path: '/services',
-  },
   {
     title: 'О нас',
     path: '/about',
@@ -67,6 +69,4 @@ const menuitems = [
 ];
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
